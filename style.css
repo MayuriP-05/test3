@@ -10,7 +10,7 @@
    text-align: center;
 }
 nav{
-    background-color: black;
+    background-color: rgb(30, 14, 64);
     text-align: center;
     padding-block: 15px;
     top: 0;
@@ -26,6 +26,9 @@ nav input{
     width: 30%;
     padding: 2px;
 }
+.fill{
+  color:rgb(41, 28, 127);
+}
 nav span{
     padding: 2px;
 }
@@ -40,7 +43,7 @@ nav span{
 }
 .container header{
     width: 70%;
-    background-color: rgba(0, 0, 0,0.3);
+    background-color: rgba(24, 4, 69, 0.3);
     padding: 2%; 
 }
 .shoes{
@@ -48,10 +51,10 @@ nav span{
     background-color: rgba(0, 0, 0, 0.1);
   }
   .buy {
-    margin-block: 10px;
+    margin-block: 15px;
     color: rgba(0, 0, 0, 0.7);
     padding: 1%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(3, 5, 47, 0.3);
     color: rgba(0, 0, 0, 0.7);
   }
   
@@ -65,7 +68,7 @@ nav span{
     /* font-size: small; */
   }
   .descriptn {
-    background: linear-gradient(to left, #000000, #434343);
+    background: linear-gradient(to left, #101011, #380c64);
   }
   .pg3{
     width: 100%;
@@ -74,12 +77,13 @@ nav span{
     overflow: hidden;
   }
   .pg3_1 {
-    width: 80%;
+    width: 75%;
     height: 75%;
     padding: 2%;
     margin: auto;
     margin-top: 7.5%;
-    box-shadow: 0px 0px 10px gray;
+    background: linear-gradient(to right, #000000, #2c18da);
+    box-shadow: 0px 0px 10px rgb(200, 186, 186);
   }
   .des {
     max-width: 40%;
@@ -96,16 +100,16 @@ nav span{
   }
   .shoe-1 {
     position: absolute;
-    right: 11%;
-    top: 20%;
+    right: 15%;
+    top: 25%;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     box-shadow: 8px 8px 8px white;
   }
   .shoe-1:hover {
-    right: 18%;
-    top: 25%;
+    right: 22%;
+    top: 30%;
     width: 400px;
     height: 400px;
   }
